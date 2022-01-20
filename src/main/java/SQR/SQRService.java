@@ -1,11 +1,13 @@
-package ru.netology.sqr;
+package SQR;
 
 public class SQRService {
+    public int min;
+    public int max;
 
-    public int SQCeil(int number) {
+    public int sQCeil(int min, int max) {
         int count = 0;
         for (int i = 10; i <= 99; i++) {
-            if (i * i >= 200 && i * i <= 300) {
+            if (i * i >= min && i * i <= max) {
                 count++;
 
 
