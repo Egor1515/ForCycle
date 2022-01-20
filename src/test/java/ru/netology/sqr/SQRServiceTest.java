@@ -33,7 +33,8 @@ class SQRServiceTest {
 
         assertEquals(expected, actual);
         System.out.println(count);
-}
+    }
+
     @Test
     public void shouldCalculateNoResult() {
         SQRService service = new SQRService();
