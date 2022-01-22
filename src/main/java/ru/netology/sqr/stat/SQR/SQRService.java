@@ -1,8 +1,6 @@
-package SQR;
+package ru.netology.sqr.stat.SQR;
 
 public class SQRService {
-    public int min;
-    public int max;
 
     public int sQCeil(int min, int max) {
         int count = 0;

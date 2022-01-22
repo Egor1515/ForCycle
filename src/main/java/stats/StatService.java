@@ -1,4 +1,4 @@
-package ru.netology.sqr.stat;
+package stats;
 
 public class StatService {
 
@@ -13,6 +13,7 @@ public class StatService {
     }
 
     public int calculateAverage(int[] sales) {
+
         return calculateSum(sales) / sales.length;
     }
 

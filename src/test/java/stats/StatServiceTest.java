@@ -1,6 +1,7 @@
-package ru.netology.sqr.stat;
+package stats;
 
 import org.junit.jupiter.api.Test;
+import stats.StatService;
 
 import static org.junit.jupiter.api.Assertions.*;
 

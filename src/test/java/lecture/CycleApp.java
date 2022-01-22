@@ -1,4 +1,4 @@
-package ru.netology.sqr;
+package lecture;
 
 public class CycleApp {
     public static void main(String[] args) {

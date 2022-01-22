@@ -1,6 +1,6 @@
 package ru.netology.sqr;
 
-import SQR.SQRService;
+import ru.netology.sqr.stat.SQR.SQRService;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -39,14 +39,14 @@ class SQRServiceTest {
     public void shouldCalculateNoResult() {
         SQRService service = new SQRService();
 
-        int count = 0;
+
         int expected = 0;
         int min = 101;
         int max = 110;
         int actual = service.sQCeil(min, max);
 
         assertEquals(expected, actual);
-        System.out.println(count);
+        System.out.println(expected);
     }
 }
 
